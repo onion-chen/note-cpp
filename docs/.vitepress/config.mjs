@@ -22,22 +22,18 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '开始阅读', link: '/cpp/' },
+      { text: '学习目录', link: '/cpp/' },
     ],
 
     sidebar: [
       {
-        text: '学习目录',
+        text: '基础知识',
         items: [
-          { text: 'C++历史', link: '/cpp/C++历史' },
-          { text: '数据类型', link: '/cpp/数据类型' }
+          { text: '1.C++历史', link: '/cpp/C++历史' },
+          { text: '2.数据类型', link: '/cpp/数据类型' }
         ]
       },
     ],
-
-    toc: {
-      level: [2, 3]
-    },
 
     docFooter: {
       prev: '上一页',
