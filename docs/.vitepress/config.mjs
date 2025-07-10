@@ -1,13 +1,25 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "C++学习笔记",
   description: "note cpp",
   lang: "zh-CN",
+  base: "/note-cpp/",
+
+  head: [
+    ["link", { rel: "icon", href: "/note-cpp/favicon.ico" }],
+  ],
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     logo: "/favicon.ico",
+
+    search: {
+      provider: 'local',
+      options: {
+        placeholder: '搜索文档...'
+      }
+    },
+
     nav: [
       { text: '首页', link: '/' },
       { text: '开始阅读', link: '/cpp/' },
@@ -57,7 +69,7 @@ export default defineConfig({
     skipToContentLabel: '跳转到内容',
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/onion-chen/note-cpp' }
     ]
   }
 })
