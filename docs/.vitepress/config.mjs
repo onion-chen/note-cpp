@@ -1,0 +1,63 @@
+import { defineConfig } from 'vitepress'
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  title: "C++学习笔记",
+  description: "note cpp",
+  lang: "zh-CN",
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    logo: "/favicon.ico",
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '开始阅读', link: '/cpp/' },
+    ],
+
+    sidebar: [
+      {
+        text: '学习目录',
+        items: [
+          { text: 'C++历史', link: '/cpp/C++历史' },
+          { text: '数据类型', link: '/cpp/数据类型' }
+        ]
+      },
+    ],
+
+    toc: {
+      level: [2, 3]
+    },
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+
+    outline: {
+      label: '页面导航'
+    },
+
+    lastUpdated: {
+      text: '最后更新于'
+    },
+
+    notFound: {
+      title: '页面未找到',
+      quote:
+        '但如果你不改变方向，并且继续寻找，你可能最终会到达你所前往的地方。',
+      linkLabel: '前往首页',
+      linkText: '带我回首页'
+    },
+
+    langMenuLabel: '多语言',
+    returnToTopLabel: '回到顶部',
+    sidebarMenuLabel: '菜单',
+    darkModeSwitchLabel: '主题',
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式',
+    skipToContentLabel: '跳转到内容',
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ]
+  }
+})
