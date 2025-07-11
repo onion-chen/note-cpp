@@ -1,7 +1,7 @@
 <template>
     <div class="cpp-home">
       <div class="cpp-hero">
-        <img class="cpp-logo" src="/note-cpp/assets/logo.png" alt="C++ Logo" />
+        <img class="cpp-logo" src="/assets/logo.png" alt="C++ Logo" />
         <h1>C++ 学习笔记</h1>
         <p class="cpp-desc">系统梳理 C++ 基础与进阶知识，适合初学者和进阶者查阅。</p>
       </div>
