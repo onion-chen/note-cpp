@@ -11,5 +11,5 @@ hero:
       link: /cpp/
     - theme: alt
       text: 查看项目源码
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/onion-chen/note-cpp
 ---

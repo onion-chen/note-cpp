@@ -7,8 +7,19 @@ export default defineConfig({
   base: "/note-cpp/",
 
   head: [
-    ["link", { rel: "icon", href: "/note-cpp/favicon.ico" }],
+    ["link", { rel: "icon", href: "/note-cpp/favicon.ico" }]
   ],
+
+  markdown: {
+    lineNumbers: true, // 显示行号
+    container: {
+      tipLabel: '提示',
+      warningLabel: '警告',
+      dangerLabel: '危险',
+      infoLabel: '消息',
+      detailsLabel: '详细信息'
+    }
+  },
 
   themeConfig: {
     logo: "/favicon.ico",
@@ -28,9 +39,10 @@ export default defineConfig({
     sidebar: [
       {
         text: '基础知识',
+        collapsed: false,
         items: [
-          { text: '1.C++历史', link: '/cpp/C++历史' },
-          { text: '2.数据类型', link: '/cpp/数据类型' }
+          { text: '1.C++历史', link: '/cpp/01C++历史' },
+          { text: '2.数据类型', link: '/cpp/02数据类型' }
         ]
       },
     ],
@@ -41,7 +53,8 @@ export default defineConfig({
     },
 
     outline: {
-      label: '页面导航'
+      label: '页面导航',
+      level: 'deep'
     },
 
     lastUpdated: {
