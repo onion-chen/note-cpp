@@ -15,8 +15,8 @@ export default defineConfig({
     container: {
       tipLabel: '提示',
       warningLabel: '警告',
-      dangerLabel: '危险',
-      infoLabel: '消息',
+      dangerLabel: '警示',
+      infoLabel: '说明',
       detailsLabel: '详细信息'
     }
   },
