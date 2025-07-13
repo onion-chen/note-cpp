@@ -13,10 +13,10 @@ export default defineConfig({
   markdown: {
     lineNumbers: true, // 显示行号
     container: {
+      infoLabel: '说明',
       tipLabel: '提示',
       warningLabel: '警告',
       dangerLabel: '警示',
-      infoLabel: '说明',
       detailsLabel: '详细信息'
     }
   },
@@ -42,7 +42,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '1.C++历史', link: '/cpp/01C++历史' },
-          { text: '2.数据类型', link: '/cpp/02数据类型' }
+          { text: '2.数据类型', link: '/cpp/02数据类型' },
+          { text: '3.运算符', link: '/cpp/03运算符' },
         ]
       },
     ],

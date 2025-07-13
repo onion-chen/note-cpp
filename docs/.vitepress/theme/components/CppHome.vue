@@ -19,6 +19,7 @@
         <ul>
           <li><a href="/note-cpp/cpp/01C++历史">1、C++历史</a></li>
           <li><a href="/note-cpp/cpp/02数据类型">2、数据类型</a></li>
+          <li><a href="/note-cpp/cpp/03运算符">2、数据类型</a></li>
         </ul>
         <h3>进阶内容</h3>
         <ul>
