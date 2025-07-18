@@ -21,6 +21,7 @@
           <li><a href="/note-cpp/cpp/02数据类型">2、数据类型</a></li>
           <li><a href="/note-cpp/cpp/03运算符">3、运算符</a></li>
           <li><a href="/note-cpp/cpp/04条件判断语句">4、条件判断语句</a></li>
+          <li><a href="/note-cpp/cpp/05循环语句">5、循环语句</a></li>
         </ul>
         <h3>进阶内容</h3>
         <ul>

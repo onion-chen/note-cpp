@@ -45,6 +45,7 @@ export default defineConfig({
           { text: '2.数据类型', link: '/cpp/02数据类型' },
           { text: '3.运算符', link: '/cpp/03运算符' },
           { text: '4.条件判断语句', link: '/cpp/04条件判断语句' },
+          { text: '5.循环语句', link: '/cpp/05循环语句' },
         ]
       },
     ],
