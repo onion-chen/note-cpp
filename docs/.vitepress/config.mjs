@@ -46,6 +46,7 @@ export default defineConfig({
           { text: '3.运算符', link: '/cpp/03运算符' },
           { text: '4.条件判断语句', link: '/cpp/04条件判断语句' },
           { text: '5.循环语句', link: '/cpp/05循环语句' },
+          { text: '6.函数', link: '/cpp/06函数' },
         ]
       },
     ],
