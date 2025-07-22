@@ -23,6 +23,7 @@
           <li><a href="/note-cpp/cpp/04条件判断语句">4、条件判断语句</a></li>
           <li><a href="/note-cpp/cpp/05循环语句">5、循环语句</a></li>
           <li><a href="/note-cpp/cpp/06函数">6、函数</a></li>
+          <li><a href="/note-cpp/cpp/07数组、指针和引用">7、数组、指针和引用</a></li>
         </ul>
         <h3>进阶内容</h3>
         <ul>
