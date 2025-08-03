@@ -48,6 +48,7 @@ export default defineConfig({
           { text: '5.循环语句', link: '/cpp/05循环语句' },
           { text: '6.函数', link: '/cpp/06函数' },
           { text: '7.数组、指针和引用', link: '/cpp/07数组、指针和引用' },
+          { text: '8.构造数据类型', link: '/cpp/08构造数据类型' },
         ]
       },
     ],
